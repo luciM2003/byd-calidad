@@ -1,16 +1,18 @@
-# Portal de Calidad · BYD Yacopini
+# El Portal de Calidad se mudó
 
-Esta carpeta es **la aplicación ya compilada**, nada más. Es lo mismo que el
-navegador descarga al entrar, así que no hay nada acá que no fuera público de
-todos modos.
+Ahora vive adentro de la app de BYD Yacopini, para que sea una sola y no haya
+que acordarse de dos direcciones:
 
-**El código fuente está en el repositorio privado `byd-portal-calidad`.**
-No se edita nada de acá a mano: se vuelve a compilar allá y se publica.
+**https://byd-yacopini.github.io/byd-yacopini-hub/portal/**
 
-La app no muestra ningún dato sin iniciar sesión. Lo que protege la
-información es el permiso por fila de la base (Supabase), no que esta carpeta
-sea difícil de encontrar.
+Acá quedan sólo dos cosas, y es a propósito:
 
-Se ve en: https://lucim2003.github.io/calidad/
+- `index.html`, que redirige a la dirección nueva. Sirve para que sigan
+  funcionando el ícono que la gente ya tiene en el celular, el QR de la guía
+  impresa y los enlaces que se mandaron por WhatsApp.
+- `guia.pdf`, que es a donde apunta el segundo QR de esa guía.
 
-Hecho por Codea Desarrollos.
+No borrar ninguno de los dos hasta estar seguros de que nadie los usa.
+
+El código fuente sigue en el repositorio privado `byd-portal-calidad`, y se
+publica con `npm run publicar`.
